@@ -79,6 +79,10 @@ export default function WeatherFetch() {
             <div className='row-span-3'>
               <div className='gap-2 p-3 dailyInfo rounded-xl text-lg shadow-md shadow-black'>
                 <div className='flex flex-row justify-between'>
+                  <div>City</div>
+                  <div>{weatherReport.name}</div>
+                </div>
+                <div className='flex flex-row justify-between'>
                   <div>Humidity</div>
                   <div>{weatherReport.main.humidity} %</div>
                 </div>
